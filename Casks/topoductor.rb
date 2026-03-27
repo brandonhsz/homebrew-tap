@@ -3,7 +3,7 @@ cask "topoductor" do
   name "topoductor"
   desc "Terminal UI for managing git worktrees"
   homepage "https://github.com/brandonhsz/TopoDuctor"
-  version "0.1.2"
+  version "0.1.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -17,22 +17,22 @@ cask "topoductor" do
   on_macos do
     on_intel do
       url "https://github.com/brandonhsz/TopoDuctor/releases/download/v#{version}/topoductor_#{version}_darwin_amd64.tar.gz"
-      sha256 "5ed4889418685350f1e7bf68909ce195d9189fcb960bd95d701cc1bc87a9bd1e"
+      sha256 "ea4fec28931d423c65feeadb2b250a9caa3928d014022af4d6fd2f7ea6ef6ae1"
     end
     on_arm do
       url "https://github.com/brandonhsz/TopoDuctor/releases/download/v#{version}/topoductor_#{version}_darwin_arm64.tar.gz"
-      sha256 "f07ef01f96269e373287e4dde0e1a332c81886a5a5b0255598f41482ce90ba0f"
+      sha256 "57c99efdcafe5fdab61d137caca3422bff5e2db597657dcb5c1a26d3473b1b27"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/brandonhsz/TopoDuctor/releases/download/v#{version}/topoductor_#{version}_linux_amd64.tar.gz"
-      sha256 "4955bac2a3df3117196909b5b3c1205eb736f7699466bb14334e3829d4abbd3d"
+      sha256 "840bc80595977778f80af778f81d6a7d413b4e3f7d0795a2e76fdc2c35f42d59"
     end
     on_arm do
       url "https://github.com/brandonhsz/TopoDuctor/releases/download/v#{version}/topoductor_#{version}_linux_arm64.tar.gz"
-      sha256 "01083b68fe91b9b018961be38d3fcf709eab9f34c632d27bdfcc0039529f1909"
+      sha256 "08dc1e087213ba0e02bfa5d2daf0470820259e3f4d8401b9606772610d69adfc"
     end
   end
 
