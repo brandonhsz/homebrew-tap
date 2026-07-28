@@ -1,6 +1,6 @@
 cask "topotools" do
-  version "0.0.1-test"
-  sha256 "aa208ad39799243d2de7be8e04071fe19594355a6bdfe357e39f3fa8ba478682"
+  version "1.0.0"
+  sha256 "9229b49aa21c721bf2975b275d5f4d5c7c86e53b2f54093810ec1f5a69301dea"
 
   url "https://github.com/brandonhsz/swift-base-claude-tools/releases/download/v#{version}/TopoTools-#{version}.dmg",
       verified: "github.com/brandonhsz/swift-base-claude-tools/"
